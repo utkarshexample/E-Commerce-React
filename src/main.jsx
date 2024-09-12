@@ -8,6 +8,7 @@ import Home from "./routes/home.jsx";
 import { Provider } from "react-redux";
 import myntreStore from "./store/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import NotFound from "./routes/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/bag", element: <Bag /> },
+      { path: "*", element: <NotFound /> },
     ],
   },
 ]);
