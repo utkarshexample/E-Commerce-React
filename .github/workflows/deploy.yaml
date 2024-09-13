@@ -36,5 +36,5 @@ jobs:
 
     - name: Tag and push Docker image
       run: |
-        docker tag my-docker-image:latest ghcr.io/${{ github.repository }}/my-docker-image:latest
-        docker push ghcr.io/${{ github.repository }}/my-docker-image:latest
+        docker tag my-docker-image:latest ghcr.io/utkarshexample/e-commerce-react/my-docker-image:latest
+        docker push ghcr.io/utkarshexample/e-commerce-react/my-docker-image:latest
