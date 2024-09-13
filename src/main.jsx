@@ -4,7 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Bag from "./routes/Bag.jsx";
 import App from "./routes/App.jsx";
 import "./index.css";
-import Home from "./routes/home.jsx";
+import Home from "./routes/Home.jsx";
 import { Provider } from "react-redux";
 import myntreStore from "./store/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
