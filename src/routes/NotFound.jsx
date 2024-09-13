@@ -18,7 +18,7 @@ const NotFound = () => {
                 </p>
                 <Link
                   className="btn bsb-btn-5xl btn-dark rounded-pill px-5 fs-6 m-0"
-                  to="/"
+                  to="/reactEcommerce/"
                   role="button"
                 >
                   Back to Home

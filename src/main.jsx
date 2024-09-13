@@ -12,11 +12,11 @@ import NotFound from "./routes/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactEcommerce/",
     element: <App />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/bag", element: <Bag /> },
+      { path: "", element: <Home /> },
+      { path: "bag", element: <Bag /> },
       { path: "*", element: <NotFound /> },
     ],
   },
