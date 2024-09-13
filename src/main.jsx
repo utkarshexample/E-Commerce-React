@@ -22,9 +22,7 @@ const router = createBrowserRouter([
   },
 ]);
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <Provider store={myntreStore}>
-      <RouterProvider router={router} />
-    </Provider>
-  </StrictMode>
+  <Provider store={myntreStore}>
+    <RouterProvider router={router} />
+  </Provider>
 );
