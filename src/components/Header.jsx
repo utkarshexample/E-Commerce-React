@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <header>
         <div className="logo_container">
-          <Link to="/">
+          <Link to="/reactEcommerce/">
             <img
               className="myntra_home"
               src="images/myntra_logo.webp"
@@ -45,7 +45,7 @@ const Header = () => {
             <span className="action_name">Wishlist</span>
           </div>
 
-          <Link className="action_container" to="/bag">
+          <Link className="action_container" to="/reactEcommerce/bag">
             <IoMdCart />
             <span className="action_name">Cart</span>
             <span className="bag-item-count">{bag.length}</span>
